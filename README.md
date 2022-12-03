@@ -1,3 +1,3 @@
-# Placement-Prepration_module
+# Placement-Prepration-module
 
 Contains Leetcode and Codestudio problem solutions done by me.....
