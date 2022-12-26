@@ -35,3 +35,4 @@ int main()
     int len=s.size();
     char *c=&s[0];
     cout<<CheckPassword(c,len);
+ 
