@@ -14,7 +14,7 @@ int Solution::perfectPeak(vector<int> &A)
     for(int i=n-1;i>0;i--){
         if(A[i] < minSoFar){
             minSoFar = A[i];
-            if(set.find(i) != set.end()) 
+            if(set.find(i) != set.end())     // Agr same index fir mil gaya
             return 1;
         }
     }
