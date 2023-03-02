@@ -4,7 +4,7 @@ public:
         int n=size(nums); 
         long long  sum=0;
         for(long long  i : nums){
-            if (i==INT_MAX)
+            if (i==INT_MAX) 
                 return INT_MAX; //Even if you do n partitions you won't be able to reduce this, so simply this will be the max sum.
             sum+=i;
         }
