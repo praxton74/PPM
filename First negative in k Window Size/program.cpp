@@ -14,7 +14,7 @@ while(j<N)
         ans.push_back(q.front());
         else
         ans.push_back(0);
-        if(A[i]==q.front())
+        if(A[i]==q.front())                  //****************************************
         q.pop();
         i++;
     }
